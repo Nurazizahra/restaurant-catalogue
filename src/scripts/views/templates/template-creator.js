@@ -23,7 +23,7 @@ const createRestaurantItemTemplate = (restaurant) => `
   <div class="restaurant-item">
     <div class="restaurant-item__header">
       <img class="lazyload" id="restaurant-item__header__poster" alt="${restaurant.name}"
-      src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}">     
+      data-src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}">     
       <div class="restaurant-item__header__city">
         <p>${restaurant.city}</p>
       </div>
